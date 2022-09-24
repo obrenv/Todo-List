@@ -1,1 +1,1 @@
-console.log("TEST");
+(()=>{console.log("TEST");console.log({title:"Pocistio",description:"govna",date:22.7,priority:"high"});let o={title:"Poslovni",description:"Ovde sve vezano za poso",arr:["test"]};console.log(o)})();
