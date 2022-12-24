@@ -19,6 +19,7 @@
   "homepage": "https://github.com/obrenv/Todo-List#readme",
   "devDependencies": {
     "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }

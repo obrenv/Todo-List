@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="header">
         <div class="plus">
-            <div id="icon">
+            <div class="icon" id="button1">
         <img src="/Todo-List/src/img/plus.png" alt="">
-    </div>
         </div>
-        <div class="plus" id="title" >
+    </div>
+       
+    <div class="plus" id="title" >
         <h1>ToDo List</h1>
     </div>
-<div class="plus"></div>
+
+    <div class="plus"></div>
     </div>
+    
+    
     <div id="side-main-container">
         <div id="side-menu">
             <p>Dummy project 1</p>
@@ -27,35 +32,45 @@
             <p>Dummy project 4</p>
             <p>Dummy project 5</p>
         </div>
-        <div id="main content"></div>
+        
+        
+        <div id="main-content">
+
+            <div class="icon" id="button2">
+                <img src="/Todo-List/src/img/plus.png" alt="">
+            </div>
+
+        </div>
     </div>
 
 
 
     <div class="modal-bck">
 
-    <div class="modal-cnt">
+<div class="modal-cnt">
 
-<ul>
-<li>
-    <label for="title">Title:</label>
-    <input type="text" id="title">
-</li>
+    <ul>
+    <li>
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+    </li>
 
-<li>
-    <label for="description">Description:</label>
-    <input type="text" id="description">
-</li>
+    <li>
+        <label for="description">Description:</label>
+        <input type="text" id="description">
+    </li>
 
-<li>
-    <label for="date">Date:</label>
-    <input type="text" id="date">
-</li>
+    <li>
+        <label for="date">Due date:</label>
+        <input type="date" id="date">
+    </li>
 
-<li>
-    <label for="priority">Priority:</label>
-    <input type="text" id="priority">
-</li>
+    <li>
+        <label for="priority">Priority:</label>
+        <input type="text" id="priority">
+    </li>
+
+<input type="submit" class="submit">
 
 </ul>
 
@@ -65,10 +80,27 @@
 
     </div>
 
-
-
+    <div id="project-form">
+        <ul>
+    
+    <li>
+        <label for="title1">Project name:</label>
+        <input type="text" id="title1">
+    </li>
+    <li>
+        <label for="description1">Description:</label>
+        <input type="text" id="description1">
+    
+    </li>
+    </ul>
+    <span class="close">&times;</span>
+    </div>
 
     </div>
+
+
+
+
 
     <script src="main.js"></script>
 </body>
