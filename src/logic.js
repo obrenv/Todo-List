@@ -1,3 +1,17 @@
+
+let projectList = [];
+   
+
+   let Projects = (title, description) => {
+ 
+      return{
+         title: title,
+         description: description,
+         arr: ["test"]
+      }
+
+   };
+
 let Task = (title, description, date, priority) => {
   
     return{
@@ -9,18 +23,17 @@ let Task = (title, description, date, priority) => {
      
    }
    
-   let task1 = Task("Pocistio", "govna", 22.7, "high");
-   console.log(task1);
+  
+function addProject(title, description) {
+
+let projectM = Projects(title, description);
+projectList.push(projectM);
+}
+
+
+
  
- 
-   let Projects = (title, description) => {
- 
-      return{
-         title: title,
-         description: description,
-         arr: ["test"]
-      }
- 
- 
- 
-   }
+   /*let project = Projects("Poslovni", "Ovde sve vezano za poso");
+   console.log(project);*/
+
+   export {Projects, Task, addProject, projectList};

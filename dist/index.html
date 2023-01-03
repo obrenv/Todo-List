@@ -27,10 +27,7 @@
     <div id="side-main-container">
         <div id="side-menu">
             <p>Dummy project 1</p>
-            <p>Dummy project 2</p>
-            <p>Dummy project 3</p>
-            <p>Dummy project 4</p>
-            <p>Dummy project 5</p>
+            
         </div>
         
         
@@ -70,27 +67,29 @@
         <input type="text" id="priority">
     </li>
 
-<input type="submit" class="submit">
+<input type="submit" class="submit" id="taskSubmit">
 
 </ul>
 
 <span class="close">&times;</span>
+</div>
 
 
 
-    </div>
-
-    <div id="project-form">
-        <ul>
+<div id="project-form">
     
+    <ul>    
     <li>
         <label for="title1">Project name:</label>
-        <input type="text" id="title1">
+        <input type="text" id="titleProject">
     </li>
     <li>
         <label for="description1">Description:</label>
-        <input type="text" id="description1">
+        <input type="text" id="descriptionProject">
     
+    </li>
+    <li>
+        <button class="submit" id="projectSubmit">Submit</button>
     </li>
     </ul>
     <span class="close">&times;</span>
@@ -102,6 +101,6 @@
 
 
 
-    <script src="main.js"></script>
+    <script src="bundle.js"></script>
 </body>
 </html>
